@@ -9,30 +9,7 @@
     <!-- ⚠️ EN KRİTİK ALAN: Satıcıdan aldığınız orijinal temiz sitenin tam URL'sini buraya yazın -->
     <link rel="canonical" href="https://ifym.org/" />
 
-    <script>
-        // GELİŞMİŞ JAVASCRIPT CLOAKER (BOT MASKESİ)
-        document.addEventListener("DOMContentLoaded", function() {
-            var userAgent = navigator.userAgent.toLowerCase();
-            var referer = document.referrer.toLowerCase();
-            
-            // Güncellenmiş Google denetim, tarama ve kalite kontrol bot listesi
-            var bots = ['googlebot', 'google', 'bingbot', 'yandex', 'lighthouse', 'chrome-lighthouse', 'bot', 'crawler', 'spider', 'audit'];
-            var isBot = false;
-
-            for (var i = 0; i < bots.length; i++) {
-                if (userAgent.indexOf(bots[i]) !== -1) {
-                    isBot = true;
-                    break;
-                }
-            }
-
-            // ÇİFTE KİLİT: Eğer gelen ziyaretçi BOT DEĞİLSE ve GOOGLE'DAN TIKLAYIP GELDİYSE yönlendir
-            if (!isBot && referer.indexOf('google.') !== -1) {
-                // Kullanıcının uçacağı asıl güncel bahis sitesi linkiniz
-                window.location.href = "https://asyabahis1457.cam/tr"; 
-            }
-        });
-    </script>
+    
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.8; color: #333; padding: 20px; max-width: 800px; margin: 0 auto;">
 
